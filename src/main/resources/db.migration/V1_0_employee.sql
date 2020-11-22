@@ -1,0 +1,30 @@
+INSERT INTO Competency VALUES(1, 'abc');
+INSERT INTO Competency VALUES(2, 'def');
+INSERT INTO Competency VALUES(3, 'ghi');
+INSERT INTO Competency VALUES(4, 'klm');
+
+INSERT INTO Employee VALUES(1, 'x','y','a',123,3,'aa');
+INSERT INTO Employee VALUES(2, 'x','y','a',1235,3,'aa');
+INSERT INTO Employee VALUES(3, 'x','y','b',1235,3,'aa');
+INSERT INTO Employee VALUES(4, 'x','y','a',123,3,'aa');
+INSERT INTO Employee VALUES(5, 'x','y','a',1235,3,'aa');
+INSERT INTO Employee VALUES(6, 'x','y','b',1235,3,'aa');
+INSERT INTO Employee VALUES(7, 'x','y','a',123,3,'aa');
+INSERT INTO Employee VALUES(8, 'x','y','a',1235,3,'aa');
+INSERT INTO Employee VALUES(9, 'x','y','b',1235,3,'aa');
+INSERT INTO Employee VALUES(10, 'x','y','a',123,3,'aa');
+INSERT INTO Employee VALUES(11, 'x','y','a',1235,3,'aa');
+INSERT INTO Employee VALUES(12, 'x','y','b',1235,3,'aa');
+
+INSERT INTO EmployeeCompetencyMapping VALUES(1, 1);
+INSERT INTO EmployeeCompetencyMapping VALUES(1, 2);
+INSERT INTO EmployeeCompetencyMapping VALUES(1, 3);
+INSERT INTO EmployeeCompetencyMapping VALUES(1, 4);
+INSERT INTO EmployeeCompetencyMapping VALUES(2, 1);
+INSERT INTO EmployeeCompetencyMapping VALUES(2, 2);
+INSERT INTO EmployeeCompetencyMapping VALUES(3, 3);
+INSERT INTO EmployeeCompetencyMapping VALUES(3, 4);
+INSERT INTO EmployeeCompetencyMapping VALUES(4, 1);
+INSERT INTO EmployeeCompetencyMapping VALUES(5, 2);
+INSERT INTO EmployeeCompetencyMapping VALUES(6, 3);
+INSERT INTO EmployeeCompetencyMapping VALUES(9, 4);
